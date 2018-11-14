@@ -5,9 +5,9 @@
 
 use barmaleeo\yii2materializecss\lib\Html;
 use barmaleeo\yii2materializecss\widgets\navigation\Nav;
-use macgyer\yii2materializecss\widgets\navigation\NavBar;
-use macgyer\yii2materializecss\widgets\navigation\Breadcrumbs;
-use macgyer\yii2materializecss\widgets\Alert;
+use barmaleeo\yii2materializecss\widgets\navigation\NavBar;
+use barmaleeo\yii2materializecss\widgets\navigation\Breadcrumbs;
+use barmaleeo\yii2materializecss\widgets\Alert;
 
 frontend\assets\AppAsset::register($this);
 ?>

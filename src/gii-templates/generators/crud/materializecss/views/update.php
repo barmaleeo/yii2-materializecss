@@ -11,7 +11,7 @@ $urlParams = $generator->generateUrlParams();
 echo "<?php\n";
 ?>
 
-use macgyer\yii2materializecss\lib\Html;
+use barmaleeo\yii2materializecss\lib\Html;
 
 
 /* @var $this yii\web\View */

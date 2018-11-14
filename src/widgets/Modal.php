@@ -8,7 +8,7 @@
 namespace barmaleeo\yii2materializecss\widgets;
 
 use barmaleeo\yii2materializecss\lib\BaseWidget;
-use macgyer\yii2materializecss\lib\Html;
+use barmaleeo\yii2materializecss\lib\Html;
 use yii\helpers\ArrayHelper;
 
 /**

@@ -5,7 +5,7 @@
  * @license https://github.com/MacGyer/yii2-materializecss/blob/master/LICENSE
  */
 
-namespace macgyer\yii2materializecss\assets;
+namespace barmaleeo\yii2materializecss\assets;
 
 use yii\web\AssetBundle;
 

@@ -5,10 +5,10 @@
  * @license https://github.com/MacGyer/yii2-materializecss/blob/master/LICENSE
  */
 
-namespace macgyer\yii2materializecss\widgets\media;
+namespace barmaleeo\yii2materializecss\widgets\media;
 
-use macgyer\yii2materializecss\lib\BaseWidget;
-use macgyer\yii2materializecss\lib\Html;
+use barmaleeo\yii2materializecss\lib\BaseWidget;
+use barmaleeo\yii2materializecss\lib\Html;
 use yii\base\InvalidConfigException;
 use yii\helpers\ArrayHelper;
 use yii\web\View;

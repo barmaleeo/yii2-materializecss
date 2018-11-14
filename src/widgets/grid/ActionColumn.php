@@ -5,10 +5,10 @@
  * @license https://github.com/MacGyer/yii2-materializecss/blob/master/LICENSE
  */
 
-namespace macgyer\yii2materializecss\widgets\grid;
+namespace barmaleeo\yii2materializecss\widgets\grid;
 
-use macgyer\yii2materializecss\lib\Html;
-use macgyer\yii2materializecss\widgets\Icon;
+use barmaleeo\yii2materializecss\lib\Html;
+use barmaleeo\yii2materializecss\widgets\Icon;
 use Yii;
 use yii\helpers\ArrayHelper;
 

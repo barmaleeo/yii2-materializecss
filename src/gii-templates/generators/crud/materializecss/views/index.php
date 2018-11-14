@@ -12,8 +12,8 @@ $nameAttribute = $generator->getNameAttribute();
 echo "<?php\n";
 ?>
 
-use macgyer\yii2materializecss\lib\Html;
-use <?= $generator->indexWidgetType === 'grid' ? "macgyer\\yii2materializecss\\widgets\\grid\\GridView" : "yii\\widgets\\ListView" ?>;
+use barmaleeo\yii2materializecss\lib\Html;
+use <?= $generator->indexWidgetType === 'grid' ? "barmaleeo\\yii2materializecss\\widgets\\grid\\GridView" : "yii\\widgets\\ListView" ?>;
 <?= $generator->enablePjax ? 'use yii\widgets\Pjax;' : '' ?>
 
 /* @var $this yii\web\View */
@@ -62,7 +62,7 @@ if (($tableSchema = $generator->getTableSchema()) === false) {
 }
 ?>
 
-            ['class' => 'macgyer\yii2materializecss\widgets\grid\ActionColumn'],
+            ['class' => 'barmaleeo\yii2materializecss\widgets\grid\ActionColumn'],
         ],
     ]); ?>
 <?php else: ?>

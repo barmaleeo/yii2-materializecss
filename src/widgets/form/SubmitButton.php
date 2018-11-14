@@ -5,9 +5,9 @@
  * @license https://github.com/MacGyer/yii2-materializecss/blob/master/LICENSE
  */
 
-namespace macgyer\yii2materializecss\widgets\form;
+namespace barmaleeo\yii2materializecss\widgets\form;
 
-use macgyer\yii2materializecss\widgets\Button;
+use barmaleeo\yii2materializecss\widgets\Button;
 
 /**
  * SubmitButton renders an HTML submit button.
