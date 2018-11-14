@@ -9,12 +9,12 @@ use yii\helpers\StringHelper;
 echo "<?php\n";
 ?>
 
-use macgyer\yii2materializecss\lib\Html;
-use macgyer\yii2materializecss\widgets\form\ActiveForm;
+use barmaleeo\yii2materializecss\lib\Html;
+use barmaleeo\yii2materializecss\widgets\form\ActiveForm;
 
 /* @var $this yii\web\View */
 /* @var $model <?= ltrim($generator->searchModelClass, '\\') ?> */
-/* @var $form macgyer\yii2materializecss\widgets\form\ActiveForm */
+/* @var $form barmaleeo\yii2materializecss\widgets\form\ActiveForm */
 ?>
 
 <div class="<?= Inflector::camel2id(StringHelper::basename($generator->modelClass)) ?>-search">

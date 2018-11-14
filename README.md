@@ -1,6 +1,6 @@
-[![license](https://img.shields.io/badge/LICENCE-BSD--3--Clause-blue.svg)](https://packagist.org/packages/macgyer/yii2-materializecss)
-[![Github Release](https://img.shields.io/github/release/macgyer/yii2-materializecss.svg)](https://packagist.org/packages/macgyer/yii2-materializecss)
-[![Packagist](https://img.shields.io/packagist/dt/macgyer/yii2-materializecss.svg)](https://packagist.org/packages/macgyer/yii2-materializecss)
+[![license](https://img.shields.io/badge/LICENCE-BSD--3--Clause-blue.svg)](https://packagist.org/packages/barmaleeo/yii2-materializecss)
+[![Github Release](https://img.shields.io/github/release/barmaleeo/yii2-materializecss.svg)](https://packagist.org/packages/barmaleeo/yii2-materializecss)
+[![Packagist](https://img.shields.io/packagist/dt/barmaleeo/yii2-materializecss.svg)](https://packagist.org/packages/barmaleeo/yii2-materializecss)
 
 # Materialize for Yii2
 
@@ -18,7 +18,7 @@ This is the current, actively developed 3.x branch which is implementing Materia
 This package integrates the Materialize CSS framework into [Yii2](http://www.yiiframework.com/).
 [Materialize](http://materializecss.com/) is a modern responsive front-end framework based on Material Design.
 
-See [official documentation](http://macgyer.github.io/yii2-materializecss/) for detailed information.
+See [official documentation](http://barmaleeo.github.io/yii2-materializecss/) for detailed information.
 
 **New**: Have a look at the [official demo page](https://yii2-materializecss.pluspunkt-coding.de) to see the repo in action.
 
@@ -37,7 +37,7 @@ $ composer global require "fxp/composer-asset-plugin:~1.4"
 To install the package add the following to the ```require``` section of your composer.json:
 ```
 "require": {
-    "macgyer/yii2-materializecss": "~3.0.0"
+    "barmaleeo/yii2-materializecss": "~3.0.0"
 },
 ```
 
@@ -49,7 +49,7 @@ Two ways to achieve this is to register the asset in the main layout:
 ```php
 // @app/views/layouts/main.php
 
-\macgyer\yii2materializecss\assets\MaterializeAsset::register($this);
+\barmaleeo\yii2materializecss\assets\MaterializeAsset::register($this);
 // further code
 ```
 
@@ -59,7 +59,7 @@ or as a dependency in your app wide AppAsset.php
 // @app/assets/AppAsset.php
 
 public $depends = [
-    'macgyer\yii2materializecss\assets\MaterializeAsset',
+    'barmaleeo\yii2materializecss\assets\MaterializeAsset',
     // more dependencies
 ];
 ```
@@ -113,7 +113,7 @@ $config['modules']['gii'] = [
         'crud' => [
             'class' => 'yii\gii\generators\crud\Generator',
             'templates' => [ // setting materializecss templates
-                'materializecss' => '@vendor/macgyer/yii2-materializecss/src/gii-templates/generators/crud/materializecss', 
+                'materializecss' => '@vendor/barmaleeo/yii2-materializecss/src/gii-templates/generators/crud/materializecss', 
             ]
         ]
     ],

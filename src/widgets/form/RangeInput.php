@@ -5,11 +5,11 @@
  * @license https://github.com/MacGyer/yii2-materializecss/blob/master/LICENSE
  */
 
-namespace macgyer\yii2materializecss\widgets\form;
+namespace barmaleeo\yii2materializecss\widgets\form;
 
-use macgyer\yii2materializecss\assets\NoUiSliderAsset;
-use macgyer\yii2materializecss\lib\BaseInputWidget;
-use macgyer\yii2materializecss\lib\Html;
+use barmaleeo\yii2materializecss\assets\NoUiSliderAsset;
+use barmaleeo\yii2materializecss\lib\BaseInputWidget;
+use barmaleeo\yii2materializecss\lib\Html;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Json;
 use yii\web\JsExpression;

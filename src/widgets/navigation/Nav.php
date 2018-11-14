@@ -5,11 +5,11 @@
  * @license https://github.com/MacGyer/yii2-materializecss/blob/master/LICENSE
  */
 
-namespace macgyer\yii2materializecss\widgets\navigation;
+namespace barmaleeo\yii2materializecss\widgets\navigation;
 
-use macgyer\yii2materializecss\assets\MaterializeAsset;
-use macgyer\yii2materializecss\lib\BaseWidget;
-use macgyer\yii2materializecss\lib\Html;
+use barmaleeo\yii2materializecss\assets\MaterializeAsset;
+use barmaleeo\yii2materializecss\lib\BaseWidget;
+use barmaleeo\yii2materializecss\lib\Html;
 use Yii;
 use yii\base\InvalidConfigException;
 use yii\helpers\ArrayHelper;

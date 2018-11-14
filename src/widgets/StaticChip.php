@@ -5,10 +5,10 @@
  * @license https://github.com/MacGyer/yii2-materializecss/blob/master/LICENSE
  */
 
-namespace macgyer\yii2materializecss\widgets;
+namespace barmaleeo\yii2materializecss\widgets;
 
-use macgyer\yii2materializecss\lib\BaseWidget;
-use macgyer\yii2materializecss\lib\Html;
+use barmaleeo\yii2materializecss\lib\BaseWidget;
+use barmaleeo\yii2materializecss\lib\Html;
 use yii\base\InvalidConfigException;
 use yii\helpers\ArrayHelper;
 
@@ -16,7 +16,7 @@ use yii\helpers\ArrayHelper;
  * StaticChip renders small units of information.
  *
  * An usual use case is the displaying of contact information.
- * If you need tagging support in forms or inputs generally, please use [[\macgyer\yii2materializecss\widgets\form\ChipInput|ChipInput]].
+ * If you need tagging support in forms or inputs generally, please use [[\barmaleeo\yii2materializecss\widgets\form\ChipInput|ChipInput]].
  *
  * @author Christoph Erdmann <yii2-materializecss@pluspunkt-coding.de>
  *

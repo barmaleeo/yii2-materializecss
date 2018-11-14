@@ -5,11 +5,11 @@
  * @license https://github.com/MacGyer/yii2-materializecss/blob/master/LICENSE
  */
 
-namespace macgyer\yii2materializecss\widgets\navigation;
+namespace barmaleeo\yii2materializecss\widgets\navigation;
 
-use macgyer\yii2materializecss\lib\BaseWidget;
-use macgyer\yii2materializecss\lib\Html;
-use macgyer\yii2materializecss\widgets\Button;
+use barmaleeo\yii2materializecss\lib\BaseWidget;
+use barmaleeo\yii2materializecss\lib\Html;
+use barmaleeo\yii2materializecss\widgets\Button;
 use yii\base\InvalidConfigException;
 use yii\helpers\ArrayHelper;
 
@@ -108,7 +108,7 @@ class FloatingActionButton extends BaseWidget
 
     /**
      * @var array the options for the optional icon.
-     * The icon will be rendered by [[\macgyer\yii2materializecss\widgets\Icon|Icon]].
+     * The icon will be rendered by [[\barmaleeo\yii2materializecss\widgets\Icon|Icon]].
      *
      * To specify an icon you can use the following parameters:
      *

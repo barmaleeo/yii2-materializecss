@@ -5,7 +5,7 @@
  * @license https://github.com/MacGyer/yii2-materializecss/blob/master/LICENSE
  */
 
-namespace macgyer\yii2materializecss\lib;
+namespace barmaleeo\yii2materializecss\lib;
 
 use yii\base\Model;
 use yii\helpers\ArrayHelper;

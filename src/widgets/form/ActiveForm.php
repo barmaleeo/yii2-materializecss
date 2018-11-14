@@ -5,7 +5,7 @@
  * @license https://github.com/MacGyer/yii2-materializecss/blob/master/LICENSE
  */
 
-namespace macgyer\yii2materializecss\widgets\form;
+namespace barmaleeo\yii2materializecss\widgets\form;
 
 /**
  * ActiveForm is a widget that builds an interactive HTML form for one or multiple data models.

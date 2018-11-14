@@ -5,13 +5,13 @@
  * @license https://github.com/MacGyer/yii2-materializecss/blob/master/LICENSE
  */
 
-namespace macgyer\yii2materializecss\widgets\navigation;
+namespace barmaleeo\yii2materializecss\widgets\navigation;
 
-use macgyer\yii2materializecss\assets\MaterializePluginAsset;
-use macgyer\yii2materializecss\lib\BaseWidget;
-use macgyer\yii2materializecss\lib\Html;
-use macgyer\yii2materializecss\widgets\Button;
-use macgyer\yii2materializecss\widgets\Icon;
+use barmaleeo\yii2materializecss\assets\MaterializePluginAsset;
+use barmaleeo\yii2materializecss\lib\BaseWidget;
+use barmaleeo\yii2materializecss\lib\Html;
+use barmaleeo\yii2materializecss\widgets\Button;
+use barmaleeo\yii2materializecss\widgets\Icon;
 use Yii;
 use yii\helpers\ArrayHelper;
 
@@ -24,8 +24,8 @@ use yii\helpers\ArrayHelper;
  * or [\yii\widgets\Menu](http://www.yiiframework.com/doc-2.0/yii-widgets-menu.html) to build up such content. For example,
  *
  * ```php
- * use macgyer\yii2materializecss\widgets\navigation\NavBar;
- * use macgyer\yii2materializecss\widgets\navigation\Nav;
+ * use barmaleeo\yii2materializecss\widgets\navigation\NavBar;
+ * use barmaleeo\yii2materializecss\widgets\navigation\Nav;
  *
  * NavBar::begin(['brandLabel' => 'NavBar Test']);
  * echo Nav::widget([
@@ -121,9 +121,9 @@ class NavBar extends BaseWidget
 
     /**
      * @var array the configuration options for the toggle button.
-     * The toggle button is rendered by the [[\macgyer\yii2materializecss\widgets\Button|Button]] widget. See the docs for all available options.
+     * The toggle button is rendered by the [[\barmaleeo\yii2materializecss\widgets\Button|Button]] widget. See the docs for all available options.
      *
-     * @see \macgyer\yii2materializecss\widgets\Button|Button
+     * @see \barmaleeo\yii2materializecss\widgets\Button|Button
      */
     public $sidenavToggleButtonOptions = [];
 

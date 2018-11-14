@@ -5,9 +5,9 @@
  * @license https://github.com/MacGyer/yii2-materializecss/blob/master/LICENSE
  */
 
-namespace macgyer\yii2materializecss\lib;
+namespace barmaleeo\yii2materializecss\lib;
 
-use macgyer\yii2materializecss\assets\MaterializePluginAsset;
+use barmaleeo\yii2materializecss\assets\MaterializePluginAsset;
 use Yii;
 use yii\helpers\Json;
 use yii\web\View;

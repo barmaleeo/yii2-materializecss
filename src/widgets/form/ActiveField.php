@@ -5,11 +5,11 @@
  * @license https://github.com/MacGyer/yii2-materializecss/blob/master/LICENSE
  */
 
-namespace macgyer\yii2materializecss\widgets\form;
+namespace barmaleeo\yii2materializecss\widgets\form;
 
-use macgyer\yii2materializecss\assets\MaterializePluginAsset;
-use macgyer\yii2materializecss\lib\Html;
-use macgyer\yii2materializecss\widgets\Icon;
+use barmaleeo\yii2materializecss\assets\MaterializePluginAsset;
+use barmaleeo\yii2materializecss\lib\Html;
+use barmaleeo\yii2materializecss\widgets\Icon;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Json;
 use yii\web\JsExpression;
@@ -295,7 +295,7 @@ class ActiveField extends \yii\widgets\ActiveField
      * @param array $items the data item used to generate the checkboxes.
      * The array values are the labels, while the array keys are the corresponding checkbox values.
      * @param array $options options (name => config) for the checkbox list.
-     * For the list of available options please refer to the `$options` parameter of [[\macgyer\yii2materializecss\lib\Html::activeCheckboxList()]].
+     * For the list of available options please refer to the `$options` parameter of [[\barmaleeo\yii2materializecss\lib\Html::activeCheckboxList()]].
      * @return $this the field object itself.
      */
     public function checkboxList($items, $options = [])
@@ -520,7 +520,7 @@ class ActiveField extends \yii\widgets\ActiveField
      * @param array $items the data item used to generate the radio buttons. The array values are the labels, while the
      * array keys are the corresponding radio values.
      * @param array $options options (name => config) for the radio button list. For the list of available options please
-     * refer to the `$options` parameter of [[\macgyer\yii2materializecss\lib\Html::activeRadioList()]].
+     * refer to the `$options` parameter of [[\barmaleeo\yii2materializecss\lib\Html::activeRadioList()]].
      * @return $this the field object itself.
      */
     public function radioList($items, $options = [])

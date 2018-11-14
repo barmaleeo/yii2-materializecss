@@ -3,8 +3,8 @@
 /* @var $this \yii\web\View */
 /* @var $content string */
 
-use macgyer\yii2materializecss\lib\Html;
-use macgyer\yii2materializecss\widgets\navigation\Nav;
+use barmaleeo\yii2materializecss\lib\Html;
+use barmaleeo\yii2materializecss\widgets\navigation\Nav;
 use macgyer\yii2materializecss\widgets\navigation\NavBar;
 use macgyer\yii2materializecss\widgets\navigation\Breadcrumbs;
 use macgyer\yii2materializecss\widgets\Alert;
