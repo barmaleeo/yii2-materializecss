@@ -146,6 +146,8 @@ class NavBar extends BaseWidget
      */
     public $sidenavItems = [];
 
+    protected $sidenavId = [];
+
     /**
      * Initializes the widget.
      */
@@ -173,6 +175,13 @@ class NavBar extends BaseWidget
             $html[] = Html::a($this->brandLabel, $this->brandUrl === false ? Yii::$app->homeUrl : $this->brandUrl, $this->brandOptions);
         }
 
+        if ($this->renderSidenav) {
+            $this->sidenavId = $this->getUniqueId('sidenav_');
+            $this->initSidenav($this->sidenavId);
+            $html[] = $this->renderSidenavToggleButton();
+        }
+
+
         if (!isset($this->containerOptions['id'])) {
             $this->containerOptions['id'] = "{$this->id}-collapse";
         }
@@ -186,29 +195,21 @@ class NavBar extends BaseWidget
      */
     public function run()
     {
-        if ($this->renderSidenav) {
-            $sidenavId = $this->getUniqueId('sidenav_');
-            $this->initSidenav($sidenavId);
-        }
-
         $html = [];
         $html[] = Html::endTag('div'); // container
-
-        if ($this->renderSidenav) {
-            $html[] = $this->renderSidenavToggleButton();
-        }
 
         $html[] = Html::endTag('div'); // nav-wrapper
 
         $html[] = Html::endTag('nav');
 
+        if ($this->renderSidenav) {
+            $html[] = $this->renderSidenav($this->sidenavId);
+        }
+
         if ($this->fixed) {
             $html[] = Html::endTag('div');
         }
 
-        if ($this->renderSidenav) {
-            $html[] = $this->renderSidenav($sidenavId);
-        }
 
         return implode("\n", $html);
     }
@@ -220,19 +221,11 @@ class NavBar extends BaseWidget
      */
     protected function initSidenav($sidenavId)
     {
-        $this->sidenavToggleButtonOptions = ArrayHelper::merge([
-            'label' => false,
-            'icon' => [
-                'name' => 'menu'
-            ],
-            'type' => Button::TYPE_FLAT,
-        ], $this->sidenavToggleButtonOptions);
-
-        if (!isset($this->sidenavToggleButtonOptions['options']['data-target'])) {
-            $this->sidenavToggleButtonOptions['options']['data-target'] = $sidenavId;
+        if (!isset($this->sidenavToggleButtonOptions['data-target'])) {
+            $this->sidenavToggleButtonOptions['data-target'] = $sidenavId;
         }
 
-        Html::addCssClass($this->sidenavToggleButtonOptions['options'], ['trigger' => 'sidenav-trigger']);
+        Html::addCssClass($this->sidenavToggleButtonOptions, ['trigger' => 'sidenav-trigger']);
     }
 
     /**
@@ -259,6 +252,6 @@ class NavBar extends BaseWidget
      */
     protected function renderSidenavToggleButton()
     {
-        return Button::widget($this->sidenavToggleButtonOptions);
+        return Html::a('<i class="material-icons">menu</i>', '#', $this->sidenavToggleButtonOptions);
     }
 }
